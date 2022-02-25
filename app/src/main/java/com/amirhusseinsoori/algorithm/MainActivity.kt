@@ -25,6 +25,11 @@ class MainActivity : AppCompatActivity() {
             Log.e("InsertionSort", "sort : $item ")
         }
 
+        for (item in InsertionSort().sort(arrayOf(4, 5, -4, 6, 2, -1, 1, 3, 0, 4, 5, 6, 7, 8, 0))) {
+            Log.e("BubbleSort", "sort : $item ")
+        }
+
+
 
 
 
