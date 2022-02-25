@@ -1,6 +1,4 @@
-package com.amirhusseinsoori.kotlin_sample.sort
-
-import android.util.Log
+package com.amirhusseinsoori.algorithm.sort
 
 class InsertionSort : SortAlgorithm {
     override fun sort(array: Array<Int>): Array<Int> {

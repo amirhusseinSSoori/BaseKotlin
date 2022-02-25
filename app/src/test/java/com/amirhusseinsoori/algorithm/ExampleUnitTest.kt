@@ -1,4 +1,4 @@
-package com.amirhusseinsoori.kotlin_sample
+package com.amirhusseinsoori.algorithm
 
 import org.junit.Test
 

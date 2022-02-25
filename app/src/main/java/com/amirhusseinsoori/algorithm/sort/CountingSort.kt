@@ -1,4 +1,4 @@
-package com.amirhusseinsoori.kotlin_sample.sort
+package com.amirhusseinsoori.algorithm.sort
 
 class CountingSort : SortAlgorithm{
     override fun sort(array: Array<Int>): Array<Int> {

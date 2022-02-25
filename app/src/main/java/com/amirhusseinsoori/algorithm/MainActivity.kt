@@ -1,10 +1,12 @@
-package com.amirhusseinsoori.kotlin_sample
+package com.amirhusseinsoori.algorithm
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.amirhusseinsoori.kotlin_sample.sort.CountingSort
-import com.amirhusseinsoori.kotlin_sample.sort.InsertionSort
+import com.amirhusseinsoori.algorithm.sort.CountingSort
+import com.amirhusseinsoori.algorithm.sort.InsertionSort
+import com.amirhusseinsoori.kotlin_sample.R
+
 
 class MainActivity : AppCompatActivity() {
 
