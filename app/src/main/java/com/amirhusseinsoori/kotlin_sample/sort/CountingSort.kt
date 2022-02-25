@@ -1,6 +1,6 @@
 package com.amirhusseinsoori.kotlin_sample.sort
 
-class CountingSort :SortAlgorithm{
+class CountingSort : SortAlgorithm{
     override fun sort(array: Array<Int>): Array<Int> {
         var max = array[0]
 
