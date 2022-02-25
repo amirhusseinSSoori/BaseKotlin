@@ -1,5 +1,7 @@
 package com.amirhusseinsoori.algorithm.sort
 
-interface SortAlgorithm {
-    fun sort(array: Array<Int>): Array<Int>
+enum class SortAlgorithm {
+    BUBBLE,
+    INSERTION,
+    COUNTING
 }

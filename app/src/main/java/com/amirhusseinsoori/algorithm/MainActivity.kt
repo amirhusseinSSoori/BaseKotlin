@@ -3,41 +3,31 @@ package com.amirhusseinsoori.algorithm
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.amirhusseinsoori.algorithm.sort.CountingSort
-import com.amirhusseinsoori.algorithm.sort.InsertionSort
-
+import com.amirhusseinsoori.algorithm.sort.*
 
 
 class MainActivity : AppCompatActivity() {
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val array = arrayOf(4, 5, 3, 2, 1, 2, 3)
 
-
-        for (item in CountingSort().sort(arrayOf(4, 5, 6, 2, 1, 1, 0, 3, 4, 5, 6, 7, 8))) {
-            Log.e("CountingSort", "sort : $item ")
+        for (i in sort(SortAlgorithm.INSERTION).sort(array)) {
+            Log.e("TAG", "onCreate: ${i}")
         }
-
-
-        for (item in InsertionSort().sort(arrayOf(4, 5, -4, 6, 2, -1, 1, 3, 0, 4, 5, 6, 7, 8, 0))) {
-            Log.e("InsertionSort", "sort : $item ")
-        }
-
-        for (item in InsertionSort().sort(arrayOf(4, 5, -4, 6, 2, -1, 1, 3, 0, 4, 5, 6, 7, 8, 0))) {
-            Log.e("BubbleSort", "sort : $item ")
-        }
-
-
-
-
 
 
     }
 
 
+    private fun sort(sort: SortAlgorithm): Sorting {
+        return when (sort) {
+            SortAlgorithm.BUBBLE -> BubbleSort()
+            SortAlgorithm.INSERTION -> InsertionSort()
+            SortAlgorithm.COUNTING -> CountingSort()
+        }
 
+    }
 
 
 }

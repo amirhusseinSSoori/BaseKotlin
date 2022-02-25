@@ -1,6 +1,6 @@
 package com.amirhusseinsoori.algorithm.sort
 
-class BubbleSort : SortAlgorithm {
+class BubbleSort : Sorting {
     override fun sort(array: Array<Int>): Array<Int> {
         var swap = true
         while(swap){

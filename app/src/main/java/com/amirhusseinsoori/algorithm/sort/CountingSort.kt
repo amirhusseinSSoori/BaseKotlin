@@ -1,6 +1,6 @@
 package com.amirhusseinsoori.algorithm.sort
 
-class CountingSort : SortAlgorithm{
+class CountingSort : Sorting{
     override fun sort(array: Array<Int>): Array<Int> {
         var max = array[0]
 

@@ -1,6 +1,6 @@
 package com.amirhusseinsoori.algorithm.sort
 
-class InsertionSort : SortAlgorithm {
+class InsertionSort : Sorting {
     override fun sort(array: Array<Int>): Array<Int> {
         var item: Int
         var i: Int
