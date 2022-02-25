@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import com.amirhusseinsoori.algorithm.sort.CountingSort
 import com.amirhusseinsoori.algorithm.sort.InsertionSort
-import com.amirhusseinsoori.kotlin_sample.R
+
 
 
 class MainActivity : AppCompatActivity() {
