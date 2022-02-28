@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val array = arrayOf(4, 5, 3, 2, 1, 2, 3)
 
-        for (i in sort(SortAlgorithm.INSERTION).sort(array)) {
+        for (i in sort(SortAlgorithm.SELECTION).sort(array)) {
             Log.e("TAG", "onCreate: ${i}")
         }
 
@@ -25,10 +25,10 @@ class MainActivity : AppCompatActivity() {
             SortAlgorithm.BUBBLE -> BubbleSort()
             SortAlgorithm.INSERTION -> InsertionSort()
             SortAlgorithm.COUNTING -> CountingSort()
+            SortAlgorithm.SELECTION -> SelectionSort()
         }
 
     }
-
 
 }
 
