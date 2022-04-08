@@ -1,9 +1,9 @@
-package com.amirhusseinsoori.algorithm
+package com.amirhusseinsoori.kotlinBase
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.amirhusseinsoori.algorithm.sort.*
+import com.amirhusseinsoori.kotlinBase.sort.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val array = arrayOf(4, 5, 3, 2, 1, 2, 3)
 
-        for (i in sort(SortAlgorithm.SELECTION).sort(array)) {
+        for (i in sort(SortAlgorithm.COUNTING).sort(array)) {
             Log.e("TAG", "onCreate: ${i}")
         }
 

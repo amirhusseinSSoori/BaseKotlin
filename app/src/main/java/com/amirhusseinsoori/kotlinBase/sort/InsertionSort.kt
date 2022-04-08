@@ -1,4 +1,4 @@
-package com.amirhusseinsoori.algorithm.sort
+package com.amirhusseinsoori.kotlinBase.sort
 
 class InsertionSort : Sorting {
     override fun sort(array: Array<Int>): Array<Int> {

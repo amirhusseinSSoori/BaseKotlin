@@ -1,4 +1,4 @@
-package com.amirhusseinsoori.algorithm.sort
+package com.amirhusseinsoori.kotlinBase.sort
 
 enum class SortAlgorithm {
     BUBBLE,

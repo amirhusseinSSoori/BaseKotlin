@@ -1,6 +1,4 @@
-package com.amirhusseinsoori.algorithm.sort
-
-import android.util.Log
+package com.amirhusseinsoori.kotlinBase.sort
 
 class SelectionSort : Sorting {
     override fun sort(array: Array<Int>): Array<Int> {

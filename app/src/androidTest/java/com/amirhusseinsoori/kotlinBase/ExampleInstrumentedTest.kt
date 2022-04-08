@@ -1,4 +1,4 @@
-package com.amirhusseinsoori.algorithm
+package com.amirhusseinsoori.kotlinBase
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
